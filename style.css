@@ -30,8 +30,8 @@
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #77dfff;
+    background-image: linear-gradient(to top, #08ffea 0%, #99ffb3 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -55,7 +55,7 @@
 }
 
 .navbar__links {
-    color: #fff;
+    color: rgb(0, 255, 213);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,15 +84,15 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #33f1f1;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #00e1f1);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #3ab48f);
     color: #fff;
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #9518fc;
+    color: #12D8FA;
     transition: all 0.3s ease;
 }
 
@@ -199,8 +199,8 @@
 }
 
 .hero__heading {
-    font-size: 100px;
-    margin-bottom: 24px;
+    font-size: 60px;
+    margin-bottom: 40px;
     color: #fff;
 }
 
@@ -220,8 +220,8 @@
 .hero__description {
     font-size: 60px;
     background: #da22ff;
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
-    background: linear-gradient(to right, #8f0eff, #da22ff);
+    background: -webkit-linear-gradient(to right, #00eeff, #da22ff);
+    background: linear-gradient(to right, #0ef7ff, #da22ff);
     /* convert box gradient into text */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -231,7 +231,7 @@
 }
 
 .highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
+    border-bottom: 4px solid rgb(0, 255, 221);
 }
 
 @media screen and (max-width: 768px) {
@@ -265,13 +265,13 @@
 
 .main__content {
     color: #fff;
-    width: 100%;
+    width: 80%;
 }
 
 .main__content h1 {
     font-size: 2rem;
     background-color: #ff8177;
-    background-image: linear-gradient( to top, #ff087b 0%, #ed1a52 100%);
+    background-image: linear-gradient( to top, #ff6a00 0%, #ed1a52 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -284,8 +284,8 @@
 .main__content h2 {
     font-size: 4em;
     background: #ff8177;
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
-    background: linear-gradient(to right, #8f0eff, #da22ff);
+    background: -webkit-linear-gradient(to right, #00ffff, #da22ff);
+    background: linear-gradient(to right, #00ffff, #da22ff);
     /* convert box gradient into text */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -295,7 +295,7 @@
 }
 
 .main__content p {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -304,8 +304,8 @@
     margin-top: 2rem;
     font-size: 1.8rem;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #00ffaa);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #00ffff);
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -356,7 +356,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #fffb00 0%, #05ffc9 100%, #ff6905 100%);
 }
 
 .fa-laptop-code, .fa-users {
@@ -365,8 +365,8 @@
 
 #card-2 {
     background: #ff512f;
-    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
+    background: -webkit-linear-gradient(to right, #dd2476, #00ffff);
+    background: linear-gradient(to right, #dd2476, #00ffff);
 }
 
 /* Mobile Responsive */
@@ -444,7 +444,7 @@
 
 .services h1 {
     background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+    background-image: linear-gradient(to right, #f7673c 0%, #05ffc9 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -468,8 +468,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #fffb00 0%, #00ffea 100%);
     transition: 00.3s ease-in;
 }
 
