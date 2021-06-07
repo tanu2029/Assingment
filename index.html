@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">NYSA</a>
+            <!-- <img src="Images/wallpaper.png"> -->
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"> Play Mobile, Start Living with <span>NYSA</span> </h1>
+            <p class="hero__description">Check the product</p>
+            <button class="main__btn"><a href="./message.html">Play</a></button>
+        </div>
+    </div>
+
+    <!-- About Section  -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-laptop-code"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>This Website</h1>
+                <h2>Provides best phones</h2>
+                <p>Contact for more info</p>
+                <button class="main__btn"><a href="#">Contact Us</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h1> My Services</h1>
+        <div class="services__wrapper">
+            <div class="services__card">
+                <h2>Redmi 4</h2>
+                <p>4Gb Ram, MIUI 11</p>
+                <div class="services__btn"><button>Get Now</button></div>
+            </div>
+            <div class="services__card">
+                <h2>Vivo V15</h2>
+                <p>6/8GB Ram, Gaming</p>
+                <div class="services__btn"><button>Get Now</button></div>
+            </div>
+            <div class="services__card">
+                <h2>One Plus Nord</h2>
+                <p>12GB Ram, 256Gb Storage</p>
+                <div class="services__btn"><button>Get Now</button></div>
+            </div>
+            <div class="services__card">
+                <h2>I Phone 12Pro</h2>
+                <p>Siri and IOS processor, 8Gb Ram</p>
+                <div class="services__btn"><button>Get Now</button></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Feature Section -->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+
+            <div class="main__content">
+                <h1>Join us</h1>
+                <h2>Sign Up Asap</h2>
+                <p>For more amazing phones</p>
+                <button class="main__btn" data-toggle="modal" data-target="#exampleModalCenter"><a href="#modal">Sign
+                        up</a></button>
+            </div>
+
+            <div class="main__img--container">
+                <div class="main__img--card" id="card-2"><i class="fas fa-users"></i></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Thank you, we will connect with you soon!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Mobile:</label>
+                            <input type="text" class="form-control" id="mobile">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About me</h2>
+                    <a href="/sign-up">About me</a>
+                    <a href="/sign-up">Testimonials</a>
+                    <a href="/sign-up">Join team</a>
+                    <a href="/sign-up">Mobile companies</a>
+                </div>
+
+                <div class="footer__link--items">
+                    <h2>Contact me</h2>
+                    <a href="/sign-up">Mobile</a>
+                    <a href="/sign-up">Email</a>
+
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">NYSA</a>
+                </div>
+                <p class="website__rights">© NYSA 2021. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" target="_blank" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmOvBRxKRCDpYBSKwvFd-Ug" class="social__icon--link"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
